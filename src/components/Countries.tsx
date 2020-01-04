@@ -5,7 +5,7 @@ export const Countries: React.FC = () => {
   const { data, loading, error } = useFetchCountriesQuery()
 
   if (loading) return <p>Loading...</p>
-  if (error) return <p>Error fetching countries</p>
+  if (error) return <p>Error fetching countries!</p>
 
   return (
     <div>

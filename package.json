@@ -23,6 +23,7 @@
     "start": "react-scripts start",
     "start:with:codegen": "concurrently \"react-scripts start\" \"npm run generate:schema -- --watch\"",
     "generate:schema": "graphql-codegen --config codegen.yml",
+    "prebuild": "npm run generate:schema",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

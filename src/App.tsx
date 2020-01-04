@@ -7,7 +7,7 @@ const App: React.FC = () => {
       <h2>Countries</h2>
       <Countries />
       <footer>
-        <strong>Provided by: </strong>
+        <strong>API Provided by: </strong>
         <a
           href="https://github.com/trevorblades"
           target="_blank"
