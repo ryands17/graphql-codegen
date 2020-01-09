@@ -1,4 +1,4 @@
-# GraphQL Codegen
+# Type inference for Apollo in React
 
 ## Available Scripts
 
