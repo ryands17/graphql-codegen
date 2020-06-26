@@ -12,7 +12,7 @@ export const Countries: React.FC = () => {
       <ul>
         {data.countries.slice(0, 10).map((country, index) => (
           <li key={index}>
-            {country.name} ({country.emoji}) => {country.currency}
+            {country.name} ({country.emoji}) =&gt; {country.currency}
           </li>
         ))}
       </ul>
