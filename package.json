@@ -19,7 +19,6 @@
     "typescript": "~3.9.5"
   },
   "scripts": {
-    "postinstall": "typesync",
     "dev": "run-p start generate:schema:watch",
     "start": "BROWSER=NONE react-scripts start",
     "generate:schema": "graphql-codegen --config codegen.yml",
@@ -34,7 +33,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.1%",
+      ">0.75%",
       "not dead",
       "not op_mini all"
     ],
