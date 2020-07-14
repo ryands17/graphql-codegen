@@ -4,6 +4,6 @@ module.exports = {
       name: 'graphql-app',
       url: 'https://countries.trevorblades.com/graphql',
     },
-    includes: ['./src/graphql/**/*.graphql'],
+    includes: ['./src/graphql/**/*.graphql', './src/components/**/*'],
   },
 }
