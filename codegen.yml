@@ -1,6 +1,8 @@
 overwrite: true
+
 schema:
   - 'https://countries.trevorblades.com/'
+
 documents: 'src/graphql/*.graphql'
 generates:
   ./src/generated/typed-document-nodes.ts:
@@ -8,3 +10,7 @@ generates:
       - typescript
       - typescript-operations
       - typed-document-node
+
+hooks:
+  afterAllFileWrite:
+    - prettier --write
