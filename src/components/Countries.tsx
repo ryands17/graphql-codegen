@@ -1,8 +1,9 @@
 import React from 'react'
-import { useFetchCountriesQuery } from 'generated/graphql'
+import { useQuery } from '@apollo/client'
+import { FetchCountriesDocument } from 'generated/typed-document-nodes'
 
 export const Countries: React.FC = () => {
-  const { loading, error, data } = useFetchCountriesQuery()
+  const { loading, error, data } = useQuery(FetchCountriesDocument)
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error!</p>
