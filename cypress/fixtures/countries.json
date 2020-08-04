@@ -1,0 +1,36 @@
+{
+  "data": {
+    "countries": [
+      {
+        "name": "Andorras",
+        "emoji": "🇦🇩",
+        "currency": "EUR",
+        "__typename": "Country"
+      },
+      {
+        "name": "United Arab Emirates",
+        "emoji": "🇦🇪",
+        "currency": "AED",
+        "__typename": "Country"
+      },
+      {
+        "name": "Afghanistan",
+        "emoji": "🇦🇫",
+        "currency": "AFN",
+        "__typename": "Country"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "emoji": "🇦🇬",
+        "currency": "XCD",
+        "__typename": "Country"
+      },
+      {
+        "name": "Anguilla",
+        "emoji": "🇦🇮",
+        "currency": "XCD",
+        "__typename": "Country"
+      }
+    ]
+  }
+}
